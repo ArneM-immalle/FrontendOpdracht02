@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    margin-bottom: 6rem;
+    width: 100%;
+}
+
+nav {
+    list-style-type: none;
+    background-color: rgb(205, 228, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav .titles,
+nav .logo {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    height: 4rem;
+}
+
+nav .logo {
+    float: left;
+    margin-left: 10%;
+}
+
+nav .logo img {
+    height: 4rem;
+}
+
+nav .titles {
+    float: right;
+    margin-right: 10%;
+}
+
+li {
+    display: inline;
+    margin: 0 1rem 0 1rem;
+    line-height: 60px;
+    padding: 0 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(var(--text-color-rgb));
+}
